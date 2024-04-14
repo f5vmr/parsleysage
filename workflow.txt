@@ -1,0 +1,4 @@
+1. Build the OS as previously discussed.
+2. Run update / install of all packages. Includes all svxlink packages, php8.2 and apache2.
+3. Call Dashboard.
+4 Build required settings from Callsign 

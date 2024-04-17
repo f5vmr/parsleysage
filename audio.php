@@ -123,7 +123,7 @@ include_once "include/buttons.php";
 if (MENUBUTTON=="BOTTOM") {
 include_once "include/buttons.php"; }
 ?>
-<center><span title="Dashboard " style="font: 7pt arial, sans-serif;">SvxLink Dashboard ©  G4NAB <?php $cdate=date("Y"); if ($cdate > "2021") {$cdate="2021-".date("Y");} echo $cdate; ?>
+<center><span title="Dashboard " style="font: 7pt arial, sans-serif;">Svxlink Builder Dashboard ©  G4NAB <?php $cdate=date("Y"); if ($cdate > "2021") {$cdate="2021-".date("Y");} echo $cdate; ?>
 	</div>
 </div>
 </fieldset>

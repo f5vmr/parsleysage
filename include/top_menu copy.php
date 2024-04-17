@@ -5,7 +5,8 @@ session_start();
 	<p style="padding-right: 5px; text-align: right; color:crimson;">
 	<a style="color: #000000;">Setting Up</a>
 	<a href="#" style="color: red;">NodeType</a> |
-	<a href="#" style="color:
+	<a href="#" style="color: red;">Soundcard</a> |
+	
 	</p>	
 	</div>
    <div id="display-links">

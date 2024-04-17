@@ -4,7 +4,7 @@ session_start();
 	<div id="setup">
 	<p style="padding-right: 5px; text-align: right; color:crimson;">
 	<a style="color: #000000;">Setting Up</a>
-	<a href="#" style="color: red;">NodeType</a> |
+	<a href="/nodetype.php" style="color: red;">NodeType</a> |
 	<a href="#" style="color: red;">Location Set up</a>|
 	<a href="#" style="color: red;">Module Set up</a> |
 	<a href="#" style="color: red;">Svxreflector Setup</a> |

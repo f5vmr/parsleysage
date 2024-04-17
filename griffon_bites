@@ -1,0 +1,14 @@
+# svxlink builder dashboard
+<h1>Svxlink Builder Dashboard</h1>
+<p>The building of a an SvxLink Node is far from simple if tackled from the perspective of programming from scratch.</p>
+<p>The object of this project is to remove, for the most part, the programming of the software to automated processes.<p>
+<p>Like many projects of this time, we still need to create an SD Card for a Raspberry Pi, Orange Pi, or Banana Pi, or even a small linux PC offering.</p>
+<p>Debian 12 lite is an absolute essential and as usual, the best way to achieve this is to use the Raspberry Pi Image Builder, that does everything. Unfilter the first button, and select Raspberry Os Lite Bookworm (debian 12 no desktop). As usual create User 'pi' but use any password you wish. Always permit SSH on the second tab.</p>
+<p>Install the Operating System to the Raspberry Pi and allow it to boot in the normal way, and log in to the terminal.</p>
+<p>As usual we have to run a command to access further packages, so we use sudo apt-get install -y git, and enter. At the end of this run, we have access to the prompt again.</p>
+<h2>The software</h2>
+<p>At the prompt type sudo git clone https://github.com/f5vmr/**** which will create the download folder to the initial directory.</p>
+<p>Our first commands will give us access to the Dashboard from which we will complete the setup. At the prompt, type ./****/install.sh, which will be a fairly long process, however during the process, we now leave the terminal to perform its routines, without further intervention. Just do not close it.</p>
+<p>You will already have the IP address of your loading device. So in a browser, type the IP address as the URL. If the dashboard does not open immediately, wait a few more minutes. It will eventually open to display the unset dashboard, with a system of menus.</p>
+<p>Our first concern will be commence building the information that the Node or Repeater will require. These will be the top line of menus. The last entry 'Complete' will only need to be clicked, once the rest of the information is fulfilled. Once done, this menu will vanish from the dashboard. Any further modification can be achieved from the other menus.</p
+

@@ -13,7 +13,7 @@ $svxConfigFile = '/etc/svxlink/svxlink.conf';
          $callsign = $svxconfig['ReflectorLogic']['CALLSIGN'];
          $fmnetwork =$svxconfig['ReflectorLogic']['HOSTS'];   }
 else { $callsign="NOCALL"; 
-       $fmnetwork="no registered";
+       $fmnetwork="non registered";
 	}
 
 

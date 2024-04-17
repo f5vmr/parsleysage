@@ -123,6 +123,6 @@ if (fopen($svxConfigFile,'r'))
     $EL_node = $svxconfig['LocationInfo']['LOCATION'];
     }
 else { $callsign="NOCALL";
-   $fmnetwork="no registered";
+   $fmnetwork="non registered";
     }
 ?>

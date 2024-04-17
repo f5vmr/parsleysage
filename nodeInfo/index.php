@@ -6,7 +6,7 @@ session_start();
   <head>
     <meta charset="UTF-8">
     <title>Audio Peak Meter</title>
-    <meta name="Author" content="Waldek SP2ONG/G4NAB" />
+    <meta name="Author" content="G4NAB" />
     <meta name="Description" content="Modifying node_info" />
     <meta name="KeyWords" content="SVXLink, SVXReflector,G4NAB" />
     <link href="/css/css.php" type="text/css" rel="stylesheet" />

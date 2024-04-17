@@ -1,4 +1,8 @@
+
 <!DOCTYPE html >
+<?php 
+include "include/settings.php"
+?>
 <html>
 <head>
     <meta name="robots" content="index" />
@@ -65,7 +69,7 @@
         <table style="margin-top:2px;">
           <tr>
             <th>Hostname<br/><span style="font-weight: bold;color:#fd5fd5;font-size:10px;">
-                <?php 'hostname' = php_uname('n')?>
+                <?php echo php_uname('n');?>
             </span></th>
             <th><b>Kernel<br/>release</b></th>
             <th colspan="2">Platform <br><span style="font-weight: bold;color:#fd5fd5;font-size:12px;">Uptime: 5&nbsp;days, 21&nbsp;hrs, 5&nbsp;mins</span></th>

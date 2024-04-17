@@ -3,13 +3,15 @@ session_start();
 ?>
 	<div id="setup">
 	<p style="padding-right: 5px; text-align: right; color:crimson;">
-	<a style="color: #000000;">Setting Up</a>
-	<a href="/nodetype.php" style="color: red;">NodeType Set up</a> |
-	<a href="/location_setup.php" style="color: red;">Location Set up</a>|
-	<a href="/echolink_setup.php" style="color: red;">Module EchoLink Set up</a> |
-	<a href="/modulemetarinfo_setup.php" style="color: red;">Module MetarInfo Set up</a> |
-	<a href="/svxreflector_setup.php" style="color: red;">Svxreflector Setup</a> |
-	<a href="#" style="color: red;">Talk Groups Setup</a>
+	<a style="color: #000000;">Set Up</a>
+	<a href="/nodetype.php" style="color: red;">NodeType</a> |
+	<a href="/location_setup.php" style="color: red;">Location</a>|
+	<a href="/echolink_setup.php" style="color: red;">Module EchoLink</a> |
+	<a href="/modulemetarinfo_setup.php" style="color: red;">Module MetarInfo</a> |
+	<a href="/svxreflector_setup.php" style="color: red;">Svxreflector</a> |
+	<a href="/talkgroups_setup.php" style="color: red;">Talkgroups</a> |
+	<a href="/sysop_authorise.php" style="color: purple;">Authorise Sysop</a> |
+	<a href="/complete.php" style="color: green;">Setup Complete</a>
 	</p>	
 	</div>
    <div id="display-links">

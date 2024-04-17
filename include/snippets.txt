@@ -63,6 +63,9 @@ cd /usr/share/svxlink/sounds
     sudo wget https://g4nab.co.uk/wp-content/uploads/2023/08/fr_FR.tar_.gz
 	sudo tar -zxvf fr_FR.tar_.gz
 	sudo rm fr_FR.tar_.gz
+## Spanish. 
+    sudo git clone https://github.com/ea5gvk/es_ES direct to
+    /usr/share/svxlink/sounds/ 
 
 #### snippet for other .conf and crontab.
 	sudo mkdir /home/pi/scripts
@@ -72,3 +75,13 @@ cd /usr/share/svxlink/sounds
 #	sudo cp -f svxlink_raspberry/node_info.json /etc/svxlink/node_info.json
 	sudo cp -f svxlink_raspberry/resetlog.sh scripts/resetlog.sh
 	(sudo crontab -l 2>/dev/null; echo "59 23 * * * /home/pi/scripts/resetlog.sh ") | sudo crontab -
+
+#### snippets to remember
+
+construction of each paragraph of svxlink
+DEFAULT_LANG
+
+#### snippet  ModuleEchoLink 
+
+#### snippet ModuleMetarInfo
+

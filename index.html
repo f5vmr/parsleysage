@@ -48,3 +48,56 @@
 
 </div></div>
 </div>
+<div class="content"><center>
+    <div style="margin-top:0px;">
+    </div></center>
+    </div>
+    <table style="margin-bottom:0px;border:0; border-collapse:collapse; cellspacing:0; cellpadding:0; background-color:#f1f1f1;"><tr style="border:none;background-color:#f1f1f1;"><td width="200px" valign="top" class="hide" style="height:auto;border:0;background-color:#f1f1f1;"><div class="nav" style="margin-bottom:1px;margin-top:10px;">
+    <script type="text/javascript">
+    function reloadStatusInfo(){
+    $("#statusInfo").load("include/status.php",function(){ setTimeout(reloadStatusInfo,3000) });
+    }
+    setTimeout(reloadStatusInfo,3000);
+    $(window).trigger('resize');
+    </script>
+    <div id="sysInfo">
+        <p style="margin-bottom:10px;margin-top:4px;"><a target=_blank href=esm><span style="font-weight: bold;font-size:14px;">Hardware Info</span></a></p>
+        <fieldset style="box-shadow:5px 5px 20px #999;background-color:#e8e8e8e8; width:855px;margin-top:0px;margin-bottom:10px;margin-left:6px;margin-right:0px;font-size:12px;border-top-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+        <table style="margin-top:2px;">
+          <tr>
+            <th>Hostname<br/><span style="font-weight: bold;color:#effd5f;font-size:10px;">IP: 192.168.1.195</span></th>
+            <th><b>Kernel<br/>release</b></th>
+            <th colspan="2">Platform <br><span style="font-weight: bold;color:#effd5f;font-size:12px;">Uptime: 5&nbsp;days, 21&nbsp;hrs, 5&nbsp;mins</span></th>
+            <th><span>&nbsp;<b>Disk&nbsp;<br> used</b></span></th>
+            <th><span>&nbsp;<b>Memory&nbsp;<br> used</b></span></th>
+            <th><span><b>CPU Usage</b></span></th>
+        <th><span><b>CPU Temp</b></span></th>  </tr>
+          <tr height="24px">
+            <td>g4nab3</td>
+            <td>6.1.74-v7+</td>
+            <td colspan="2">Linux</td>
+            <td>20%</td>
+            <td>9%</td>
+        <!--    <td>1.2&nbsp;%<br>(0.1 / 0 / 0)</td> -->
+           <td style="background: #1d1">1.2&nbsp;%</td>
+           <td style="background: #1d1;">40&deg;C</td>
+          </tr>
+        </table>
+        </fieldset>
+        </div>
+        </div>
+        <div class="content">
+         <fieldset style="box-shadow:5px 5px 20px #999;background-color:#e8e8e8e8; width:855px;margin-top:5px;margin-bottom:14px;margin-left:6px;margin-right:0px;font-size:12px;border-top-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+        <div style="padding:0px;width:100%;background-image: linear-gradient(to bottom, #e9e9e9 50%, #bcbaba 100%);border-radius: 10px;-moz-border-radius:10px;-webkit-border-radius:10px;border: 1px solid LightGrey;margin-left:0px; margin-right:0px;margin-top:4px;margin-bottom:0px;white-space:normal;">
+        <p style="margin-bottom:0px;"></p>
+        
+        <p style="margin: 0 auto;"></p>
+        
+        <p style="margin-bottom:-2px;"></p>
+        </div>
+        </fieldset>
+        <center><span title="Dashboard" style="font: 7pt arial, sans-serif;">SvxLink Builders Dashboard ©  G4NAB 2024</div>
+        </fieldset>
+        <br>
+        </body>
+        </html>

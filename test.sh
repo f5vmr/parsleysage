@@ -1,7 +1,7 @@
 #!/bin/bash
 ##### Configuration file a new build script
 sudo apt update && sudo apt upgrade -y
-sudo apt-get install build-essential g++ make cmake libsigc++-2.0-dev php8.2 libgsm1-dev libudev-dev libpopt-dev tcl-dev libgpiod-dev gpiod libgpiod2 libgcrypt20-dev libspeex-dev libasound2-dev alsa-utils libjsoncpp-dev libopus-dev rtl-sdr libcurl4-openssl-dev libogg-dev librtlsdr-dev groff doxygen graphviz python3-serial sqlite3 php8.2-sqlite3 toilet libc6-dev libgsm1 libjsoncpp25 librtlsdr0 libsigc++-2.0-ov5 libstdc++6 libtcl8.6 -y
+sudo apt-get install build-essential g++ make cmake libsigc++-2.0-dev php8.2 libgsm1-dev libudev-dev libpopt-dev tcl-dev libgpiod-dev gpiod libgpiod2 libgcrypt20-dev libspeex-dev libasound2-dev alsa-utils libjsoncpp-dev libopus-dev rtl-sdr libcurl4-openssl-dev libogg-dev librtlsdr-dev groff doxygen graphviz python3-serial sqlite3 php8.2-sqlite3 toilet libc6-dev libgsm1 libjsoncpp25 librtlsdr0 libstdc++6 libtcl8.6 -y
 #sudo wget https://debian.mirror.beocat.ksu.edu/archive/pool/main/s/svxlink/libasyncaudio-dev_24.02-1_armhf.deb
 #sudo dpkg -i libasyncaudio-dev_24.02-1_armhf.deb
 ##sudo wget https://debian.mirror.beocat.ksu.edu/archive/pool/main/s/svxlink/libasyncaudio1.6t64_24.02-1_armhf.deb

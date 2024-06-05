@@ -2,6 +2,8 @@
 ##### Configuration file a new build script
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y  libgpiod2 libgpiod-dev gpiod 
-sudo echo "deb [ trusted=yes ] http://ftp.de.debian.org/debian trixie main" >> /etc/apt/sources.list.d/trixie.list
-sudo apt update
-sudo apt install svxlink-server -y
+sudo wget https://debian.mirror.beocat.ksu.edu/archive/pool/main/s/svxlink/svxlink-server_24.02-1_armhf.deb
+
+sudo dpkg -i svxlink-server_24.02-1_armhf.deb
+sudo apt install -f -y
+
